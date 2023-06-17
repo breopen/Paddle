@@ -11,7 +11,7 @@
 # --security-opt seccomp=unconfined --group-add video \
 # paddlepaddle/paddle-centos-rocm401-dev:latest /bin/bash
 
-FROM centos:7.8.2003
+FROM centos:7
 MAINTAINER PaddlePaddle Authors <paddle-dev@baidu.com>
 
 ENV LC_ALL en_US.UTF-8
